@@ -23,7 +23,7 @@ while True:
     while i < len(box):
         if box[i] == "/":
             if box[i + 1] == 0:
-                print("Zero Value Error occurs!!. can't divide by zero.")
+                print("can't divide by zero.")
                 exit()
             else:
               r = box[i - 1] / box[i + 1]
@@ -47,4 +47,5 @@ while True:
             i -=1
         i+=1
     print("Answer is :", box[0])        
+
         
